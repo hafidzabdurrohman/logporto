@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="siswa-L4-01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-07-31 08:23:43 PM"/>
+        <attribute name="created" value="c2lzd2EtTDQtMDE7REVTS1RPUC1GUUxWRUQ0OzIwMjQtMDctMzE7MDg6MDk6MzUgUE07MzIzOQ=="/>
+        <attribute name="edited" value="c2lzd2EtTDQtMDE7REVTS1RPUC1GUUxWRUQ0OzIwMjQtMDctMzE7MDg6MjM6NDMgUE07MTszMzQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Alas, Tinggi, Luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Alas&quot;" newline="True"/>
+            <input variable="Alas"/>
+            <output expression="&quot;Masukkan Tinggi&quot;" newline="True"/>
+            <input variable="Tinggi"/>
+            <assign variable="Luas" expression="1/2*Alas*Tinggi"/>
+        </body>
+    </function>
+</flowgorithm>

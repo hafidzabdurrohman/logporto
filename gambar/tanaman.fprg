@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HAFIDZ"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-05 08.46.01 AM"/>
+        <attribute name="created" value="SEFGSURaO0xBUFRPUC1GTjhRMlRJQzsyMDI0LTA4LTA1OzA3LjQzLjU4IEFNOzI3NTk="/>
+        <attribute name="edited" value="SEFGSURaO0xBUFRPUC1GTjhRMlRJQzsyMDI0LTA4LTA1OzA4LjQ2LjAxIEFNOzE7Mjg1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Padi, Jagung, Kedelai, Total" type="Integer" array="False" size=""/>
+            <output expression="&quot;BerapaLuasPadi&quot;" newline="True"/>
+            <input variable="Padi"/>
+            <output expression="&quot;BerapaLuasJagung&quot;" newline="True"/>
+            <input variable="Jagung"/>
+            <output expression="&quot;BerapaLuasKedelai&quot;" newline="True"/>
+            <input variable="Kedelai"/>
+            <assign variable="padi" expression="Padi*10"/>
+            <assign variable="Jagung" expression="Jagung*8"/>
+            <assign variable="Kedelai" expression="Kedelai*6"/>
+            <assign variable="Total" expression="padi+Jagung+Kedelai"/>
+        </body>
+    </function>
+</flowgorithm>
