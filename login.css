@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("img/starry-sky-lake-tree-darkness-wallpaper-5920c8ddb15a5d5b96c7c87f8001d66d.jpg") no-repeat;
+  background: url("bg-login.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
